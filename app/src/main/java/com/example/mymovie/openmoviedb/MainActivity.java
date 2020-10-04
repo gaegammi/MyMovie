@@ -1,4 +1,4 @@
-package com.example.mymovie;
+package com.example.mymovie.openmoviedb;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -7,22 +7,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
 
+import com.example.mymovie.R;
 import com.example.mymovie.appclasses.Datum;
 import com.example.mymovie.appclasses.ResponseModel;
 import com.example.mymovie.appclasses.Result;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ResourceBundle;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.http.Tag;
 
 public class MainActivity extends AppCompatActivity {
 
